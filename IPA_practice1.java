@@ -5,8 +5,7 @@ public class IPA_practice1
     {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
-        String[] word = null;
-        word = s.split(" ");
+        String[] word =s.split(" ");
         for(int i=0; i<word.length; i++)
         {
             System.out.println(word[i]);
